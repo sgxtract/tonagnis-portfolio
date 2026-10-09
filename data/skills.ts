@@ -17,7 +17,7 @@ import {
   SiSupabase,
   SiTailwindcss,
   SiTypescript,
-  SiUbuntu,
+  SiFedora,
 } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { VscVscode } from "react-icons/vsc";
@@ -38,7 +38,7 @@ export const skills: SkillsContent = {
         { name: "Supabase", icon: SiSupabase },
         { name: "Node.js", icon: SiNodedotjs },
         { name: "Tailwind", icon: SiTailwindcss },
-        { name: "Linux Ubuntu", icon: SiUbuntu },
+        { name: "Linux Fedora", icon: SiFedora },
         { name: "VS Code", icon: VscVscode },
         { name: "Git", icon: SiGit },
         { name: "GitHub", icon: SiGithub },
