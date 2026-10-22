@@ -9,9 +9,10 @@ export const projects: ProjectsContent = {
       title: "GovGuide",
       status: "in-progress",
       description:
-        "A centralized guide to Philippine government services, showing where to go, what requirements to bring, and the step-by-step process for transactions like LTO applications. Since most requirements are the same nationwide, it serves Filipinos across the country rather than a single city.",
-      tags: ["Next.js", "React", "TypeScript", "Tailwind", "Claude"],
+        "A guide to Philippine government services: where to go, what to bring, the steps, and the fees. National requirements are shared across the country, while local offices and city-run services are added city by city, starting with Sorsogon. Every guide links to its official source and shows when it was last checked.",
+      tags: ["Next.js", "React", "TypeScript", "Tailwind", "Claude Code"],
       sourceUrl: "https://github.com/sgxtract/govguide",
+      liveUrl: "https://ph-govguide.vercel.app/",
     },
     {
       title: "Procurement Monitoring System (PMS)",
