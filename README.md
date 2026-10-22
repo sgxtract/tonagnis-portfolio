@@ -16,24 +16,30 @@
 
 - 🏛️ IT System Analyst at the **Local Government of Sorsogon**, building and maintaining web-based, database-driven systems
 - 🛠️ Comfortable across the whole stack: database design, APIs, and clean, responsive UIs
-- 🤖 Currently deepening my skills in **AI-assisted development**
-- 🐧 Linux enthusiast who loves tinkering with setups and taking side projects apart to see how they work
+- 🤖 Building with **Claude Code** as part of AI-assisted development
+- 📱 Currently exploring **mobile apps with Expo**, starting with my next project, Sigla
+- 🐧 Linux enthusiast, currently on **Fedora**, who loves tinkering with setups and taking side projects apart to see how they work
 - 📚 Lifelong learner, problem solver, tech explorer
 
 ## 🧰 Tech Stack
 
 **Main**
 
-![Next.js](https://skillicons.dev/icons?i=nextjs,ts,react,postgres,nodejs,tailwind,linux,vscode,git,github,docker)
+![Main](https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,postgres,nodejs)
+
+**Tools**
+
+![Tools](https://skillicons.dev/icons?i=git,github,docker,vercel,vscode,linux)
 
 **Also working with**
 
-![Others](https://skillicons.dev/icons?i=php,laravel,html,css,js,python,mysql)
+![Others](https://skillicons.dev/icons?i=php,laravel,mysql,js,html,css,python)
 
 ## 🚀 Selected Projects
 
 | Project | Description | Stack |
 | --- | --- | --- |
+| [**GovGuide**](https://ph-govguide.vercel.app) 🚧 | A guide to Philippine government services: where to go, what to bring, the steps, and the fees. National requirements are shared across the country, while local offices are added city by city, starting with Sorsogon. Every guide links to its official source. | Next.js, React, TypeScript, Tailwind |
 | [**Procurement Monitoring System (PMS)**](https://github.com/sgxtract/pms) 🚧 | Procurement tracking platform for the Local Government of Sorsogon. Staff submit and follow requests through a structured workflow, with public visibility into active procurements for transparency. | Next.js, TypeScript, PostgreSQL, Docker |
 | [**Online Parking Management System (OPMS)**](https://github.com/sgxtract/opms) | Parking reservation system for booking a specific slot in advance, with a PHP/Laravel REST API consumed by a native Android app. | PHP, Laravel, MySQL, REST API, Java, Android |
 
