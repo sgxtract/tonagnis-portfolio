@@ -6,6 +6,14 @@ export const projects: ProjectsContent = {
     "A few projects that show how I approach the full stack, from schema to shipped interface.",
   items: [
     {
+      title: "Government Services Guide (GovGuide)",
+      status: "in-progress",
+      description:
+        "placeholder",
+      tags: ["Next.js", "TypeScript", "Node.js", "Claude Code"],
+      sourceUrl: "https://github.com/sgxtract/pms",
+    },
+    {
       title: "Procurement Monitoring System (PMS)",
       status: "in-progress",
       description:
