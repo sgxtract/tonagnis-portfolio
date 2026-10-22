@@ -5,5 +5,5 @@ export const siteConfig = {
   description:
     "Portfolio of Nestor Jr. Agnis, a full stack developer building reliable web apps with Next.js, TypeScript, and PostgreSQL.",
   url: "https://tonagnis.vercel.app",
-  repoUrl: "https://github.com/sgxtract/hushgrove",
+  repoUrl: "https://github.com/sgxtract/tonagnis-portfolio",
 } as const;

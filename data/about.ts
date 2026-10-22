@@ -6,7 +6,7 @@ export const about: AboutContent = {
   title: "A developer who enjoys turning ideas into working software.",
   paragraphs: [
     `I'm a ${profile.role.toLowerCase()} based in ${profile.location}, focused on building reliable, scalable web applications from the ground up. I enjoy working across the entire stack from designing PostgreSQL schemas to crafting clean, responsive React interfaces.`,
-    "Right now I'm deepening my skills in AI-assisted development. When I'm not coding, I'm usually exploring new tools, tinkering with my Linux Ubuntu setup, or taking apart side projects just to see how they work.",
+    "Right now I'm deepening my skills in AI-assisted development. When I'm not coding, I'm usually exploring new tools, tinkering with my Fedora setup, or taking apart side projects just to see how they work.",
   ],
   traits: [
     "Full Stack Developer",
