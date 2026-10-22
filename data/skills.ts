@@ -1,13 +1,16 @@
 import { FaCss3Alt, FaMicrosoft } from "react-icons/fa6";
-import { AiFillOpenAI } from "react-icons/ai";
+import { RiOpenaiFill } from "react-icons/ri";
 import {
-  SiClaude,
+  SiAnthropic,
+  SiDocker,
+  SiFedora,
   SiGit,
   SiGithub,
   SiGooglesheets,
   SiHtml5,
   SiJavascript,
   SiLaravel,
+  SiMysql,
   SiNextdotjs,
   SiNodedotjs,
   SiPhp,
@@ -17,9 +20,8 @@ import {
   SiSupabase,
   SiTailwindcss,
   SiTypescript,
-  SiFedora,
+  SiVercel,
 } from "react-icons/si";
-import { GrMysql } from "react-icons/gr";
 import { VscVscode } from "react-icons/vsc";
 import type { SkillsContent } from "@/types";
 
@@ -32,16 +34,25 @@ export const skills: SkillsContent = {
       variant: "primary",
       items: [
         { name: "Next.js", icon: SiNextdotjs },
-        { name: "TypeScript", icon: SiTypescript },
         { name: "React", icon: SiReact },
+        { name: "TypeScript", icon: SiTypescript },
+        { name: "Tailwind", icon: SiTailwindcss },
         { name: "PostgreSQL", icon: SiPostgresql },
         { name: "Supabase", icon: SiSupabase },
         { name: "Node.js", icon: SiNodedotjs },
-        { name: "Tailwind", icon: SiTailwindcss },
-        { name: "Linux Fedora", icon: SiFedora },
-        { name: "VS Code", icon: VscVscode },
+      ],
+    },
+    {
+      label: "Tools",
+      variant: "secondary",
+      items: [
+        { name: "Claude Code", icon: SiAnthropic },
         { name: "Git", icon: SiGit },
         { name: "GitHub", icon: SiGithub },
+        { name: "Docker", icon: SiDocker },
+        { name: "Vercel", icon: SiVercel },
+        { name: "VS Code", icon: VscVscode },
+        { name: "Fedora", icon: SiFedora },
       ],
     },
     {
@@ -50,15 +61,14 @@ export const skills: SkillsContent = {
       items: [
         { name: "PHP", icon: SiPhp },
         { name: "Laravel", icon: SiLaravel },
+        { name: "MySQL", icon: SiMysql },
+        { name: "JavaScript", icon: SiJavascript },
         { name: "HTML5", icon: SiHtml5 },
         { name: "CSS", icon: FaCss3Alt },
-        { name: "JavaScript", icon: SiJavascript },
         { name: "Python", icon: SiPython },
-        { name: "Claude AI", icon: SiClaude },
-        { name: "OpenAI / ChatGPT", icon: AiFillOpenAI },
+        { name: "OpenAI / ChatGPT", icon: RiOpenaiFill },
         { name: "Google Sheets", icon: SiGooglesheets },
         { name: "Microsoft Apps", icon: FaMicrosoft },
-        { name: "MySQL", icon: GrMysql },
       ],
     },
   ],

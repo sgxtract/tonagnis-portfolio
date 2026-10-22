@@ -11,7 +11,7 @@ export const profile: Profile = {
   resumeUrl: "/resume.pdf",
   email: "njagnis@gmail.com",
   featuredStack: ["Next.js", "TypeScript", "PostgreSQL"],
-  exploring: "AI-driven tools",
+  exploring: "Mobile apps with Expo",
   socials: [
     {
       label: "GitHub",

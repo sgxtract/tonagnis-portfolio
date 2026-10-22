@@ -6,19 +6,19 @@ export const projects: ProjectsContent = {
     "A few projects that show how I approach the full stack, from schema to shipped interface.",
   items: [
     {
-      title: "Government Services Guide (GovGuide)",
+      title: "GovGuide",
       status: "in-progress",
       description:
-        "placeholder",
-      tags: ["Next.js", "TypeScript", "Node.js", "Claude Code"],
-      sourceUrl: "https://github.com/sgxtract/pms",
+        "A centralized guide to Philippine government services, showing where to go, what requirements to bring, and the step-by-step process for transactions like LTO applications. Since most requirements are the same nationwide, it serves Filipinos across the country rather than a single city.",
+      tags: ["Next.js", "React", "TypeScript", "Tailwind", "Claude"],
+      sourceUrl: "https://github.com/sgxtract/govguide",
     },
     {
       title: "Procurement Monitoring System (PMS)",
       status: "in-progress",
       description:
         "A procurement monitoring platform built for the Local Government of Sorsogon. Staff submit and track procurement requests through a structured workflow, with public visibility into active procurements for transparency.",
-      tags: ["Next.js", "TypeScript", "PostgreSQL", "Supabase"],
+      tags: ["Next.js", "TypeScript", "PostgreSQL", "Docker"],
       sourceUrl: "https://github.com/sgxtract/pms",
     },
     {
